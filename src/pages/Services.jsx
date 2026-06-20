@@ -132,8 +132,8 @@ export default function Services() {
             <p className="text-muted-foreground text-sm mb-6">Direct Deposit — Immediate Payment Required</p>
             <div className="inline-flex flex-col items-center bg-white rounded-2xl p-6 border border-border/50 shadow-sm">
               <p className="text-sm text-muted-foreground uppercase tracking-widest font-medium mb-1">FNB Account</p>
-              <p className="font-heading text-3xl font-black text-primary tracking-widest">63193553469</p>
-              <p className="text-xs text-muted-foreground mt-2">Branch: 250355 • Use your name as reference</p>
+              <p className="font-heading text-3xl font-black text-primary tracking-widest">12345678901</p>
+              <p className="text-xs text-muted-foreground mt-2">Branch: 632005 • Use your name as reference</p>
             </div>
           </div>
         </motion.div>

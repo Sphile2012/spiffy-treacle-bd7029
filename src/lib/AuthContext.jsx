@@ -3,7 +3,7 @@ import React, { createContext, useState, useContext, useEffect } from 'react';
 const AuthContext = createContext();
 
 const ADMIN_SESSION_KEY = 'bloom_admin_session';
-const ADMIN_PASSWORD = import.meta.env.VITE_ADMIN_PASSWORD || 'bloom2024';
+const ADMIN_PASSWORD = import.meta.env.VITE_ADMIN_PASSWORD;
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);

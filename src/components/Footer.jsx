@@ -48,9 +48,9 @@ export default function Footer() {
                 <MapPin className="w-4 h-4 shrink-0" />
                 Sangro House, Durban
               </a>
-              <a href="tel:+27798060310" className="flex items-center gap-3 opacity-70 hover:opacity-100 transition-opacity">
+              <a href="tel:+27823562239" className="flex items-center gap-3 opacity-70 hover:opacity-100 transition-opacity">
                 <Phone className="w-4 h-4 shrink-0" />
-                079 806 0310
+                082 356 2239
               </a>
               <a href="mailto:bloomskillsandbeauty@icloud.com" className="flex items-center gap-3 opacity-70 hover:opacity-100 transition-opacity">
                 <Mail className="w-4 h-4 shrink-0" />
@@ -64,16 +64,17 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-background/10 mt-12 pt-8 text-center text-xs opacity-50">
+        <div className="border-t border-background/10 mt-12 pt-8 text-center text-xs opacity-50 space-y-1">
           <p className="flex items-center justify-center gap-1">
             Made with <Heart className="w-3 h-3 text-primary fill-primary" /> Bloom Skills & Beauty © {new Date().getFullYear()}
           </p>
+          <p>Developed by uPhumeh</p>
         </div>
       </div>
 
       {/* Floating WhatsApp Button */}
       <a
-        href="https://wa.me/27798060310?text=Hi%20Bloom%20Skills%20%26%20Beauty!%20I'd%20like%20to%20make%20an%20enquiry."
+        href="https://wa.me/27823562239?text=Hi%20Bloom%20Skills%20%26%20Beauty!%20I'd%20like%20to%20make%20an%20enquiry."
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white rounded-full p-4 shadow-2xl transition-all hover:scale-110"

@@ -35,7 +35,7 @@ export default function BookingConfirmed() {
     ? `Hi Bloom Skills & Beauty,\n\nI have just enrolled in the Beginner Nail Course online.\n\nName: ${booking.client_name}\nPhone: ${booking.client_phone}\nEmail: ${booking.client_email || "Not provided"}\nCourse: ${booking.service_detail}\nStart Date: ${booking.preferred_date}\nCourse Fee: R${booking.price}\n\nI have attached my R500 registration deposit proof of payment.\n\nThank you!\n${booking.client_name}`
     : `Hi Bloom Skills & Beauty,\n\nI have just completed my booking online.\n\nName: ${booking.client_name}\nPhone: ${booking.client_phone}\nEmail: ${booking.client_email || "Not provided"}\nService: ${booking.service_detail}\nDate: ${booking.preferred_date}\nTime: ${booking.preferred_time}\n\nI have attached my R100 deposit proof of payment.\n\nSee you soon!\n${booking.client_name}`;
 
-  const whatsappUrl = `https://wa.me/27798060310?text=${encodeURIComponent(whatsappMsg)}`;
+  const whatsappUrl = `https://wa.me/27823562239?text=${encodeURIComponent(whatsappMsg)}`;
   const emailUrl = `mailto:bloomskillsandbeauty@icloud.com?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
 
   const sendBoth = () => {
@@ -120,8 +120,8 @@ export default function BookingConfirmed() {
               <div className="space-y-1.5 text-blue-800 text-xs">
                 <div className="flex justify-between"><span>Bank</span><span className="font-semibold">FNB</span></div>
                 <div className="flex justify-between"><span>Account Name</span><span className="font-semibold">Bloom Skills & Beauty</span></div>
-                <div className="flex justify-between"><span>Account Number</span><span className="font-semibold">63193553469</span></div>
-                <div className="flex justify-between"><span>Branch Code</span><span className="font-semibold">250355</span></div>
+                <div className="flex justify-between"><span>Account Number</span><span className="font-semibold">12345678901</span></div>
+                <div className="flex justify-between"><span>Branch Code</span><span className="font-semibold">632005</span></div>
                 <div className="flex justify-between"><span>Reference</span><span className="font-semibold">{booking.client_name}</span></div>
               </div>
               <p className="text-xs text-blue-700 mt-3 font-medium">
@@ -182,8 +182,8 @@ export default function BookingConfirmed() {
 
         <p className="text-center text-xs text-muted-foreground mt-5">
           Questions? WhatsApp us at{" "}
-          <a href="https://wa.me/27798060310" className="text-[#c06070] font-medium">
-            079 806 0310
+          <a href="https://wa.me/27823562239" className="text-[#c06070] font-medium">
+            082 356 2239
           </a>
         </p>
       </motion.div>

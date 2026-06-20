@@ -208,7 +208,7 @@ export default function Book() {
                     </div>
                     <div>
                       <Label htmlFor="phone" className="text-sm font-medium">WhatsApp / Phone Number *</Label>
-                      <Input id="phone" placeholder="e.g. 079 806 0310" value={form.client_phone}
+                      <Input id="phone" placeholder="e.g. 082 356 2239" value={form.client_phone}
                         onChange={(e) => setForm({ ...form, client_phone: e.target.value })}
                         className={`mt-1.5 rounded-xl h-11 ${phoneError ? "border-red-500" : ""}`} />
                       {phoneError && <p className="text-xs text-red-600 mt-1">{phoneError}</p>}
@@ -352,15 +352,15 @@ export default function Book() {
                   {error && <div className="bg-red-50 border border-red-200 rounded-xl p-4 text-sm text-red-800">⚠️ {error}</div>}
                   <div className="bg-primary/5 border border-primary/20 rounded-2xl p-6 text-center">
                     <p className="text-xs text-muted-foreground uppercase tracking-widest font-medium mb-1">FNB Account</p>
-                    <p className="font-heading text-3xl font-black text-primary tracking-widest">63193553469</p>
-                    <p className="text-sm text-muted-foreground mt-1">Branch: 250355</p>
+                    <p className="font-heading text-3xl font-black text-primary tracking-widest">12345678901</p>
+                    <p className="text-sm text-muted-foreground mt-1">Branch: 632005</p>
                     <p className="text-sm text-muted-foreground mt-1">Reference: <span className="font-semibold text-foreground">{form.client_name || "Your Name"}</span></p>
                   </div>
                   <div className="bg-amber-50 border border-amber-200 rounded-2xl p-4 text-sm text-amber-800">
                     <p className="font-semibold mb-1">💳 Deposit Required</p>
                     <p>Pay <strong>{isCourseBooking ? "R500" : "R100"}</strong> via FNB direct transfer, then click <strong>"I've Paid"</strong> below.</p>
                   </div>
-                  <a href={`https://wa.me/27798060310?text=${encodeURIComponent(`Hi Bloom Skills & Beauty! I've just made my ${isCourseBooking ? 'R500 registration' : 'R100'} deposit for ${form.client_name}.\nDate: ${isCourseBooking ? (dateRange.from ? format(dateRange.from, 'd MMM yyyy') : '') : (date ? format(date, 'd MMM yyyy') : '')}\n\nPlease find my proof of payment attached. Thank you!`)}`}
+                  <a href={`https://wa.me/27823562239?text=${encodeURIComponent(`Hi Bloom Skills & Beauty! I've just made my ${isCourseBooking ? 'R500 registration' : 'R100'} deposit for ${form.client_name}.\nDate: ${isCourseBooking ? (dateRange.from ? format(dateRange.from, 'd MMM yyyy') : '') : (date ? format(date, 'd MMM yyyy') : '')}\n\nPlease find my proof of payment attached. Thank you!`)}`}
                     target="_blank" rel="noopener noreferrer" className="block">
                     <button className="w-full py-3 rounded-xl bg-green-600 hover:bg-green-700 text-white font-medium text-sm transition-colors">
                       💬 Send Proof of Payment via WhatsApp

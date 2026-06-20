@@ -14,8 +14,8 @@ const contactItems = [
   {
     icon: Phone,
     title: "Phone / WhatsApp",
-    detail: "079 806 0310",
-    action: "tel:+27798060310",
+    detail: "082 356 2239",
+    action: "tel:+27823562239",
     actionLabel: "Call Now",
   },
   {
@@ -87,7 +87,7 @@ export default function Contact() {
             The fastest way to reach us. Send a message and we'll respond right away!
           </p>
           <a
-            href="https://wa.me/27798060310?text=Hi%20Bloom%20Skills%20%26%20Beauty!%20I'd%20like%20to%20make%20an%20enquiry."
+            href="https://wa.me/27823562239?text=Hi%20Bloom%20Skills%20%26%20Beauty!%20I'd%20like%20to%20make%20an%20enquiry."
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -104,8 +104,8 @@ export default function Contact() {
           <p className="text-muted-foreground text-sm mb-4">Direct Deposit (Immediate Payment)</p>
           <div className="inline-flex flex-col items-center bg-secondary/50 rounded-xl p-6">
             <p className="font-semibold text-foreground">FNB Account</p>
-            <p className="text-2xl font-heading font-bold text-primary mt-1">63193553469</p>
-            <p className="text-xs text-muted-foreground mt-1">Branch: 250355 • Use your name as reference</p>
+            <p className="text-2xl font-heading font-bold text-primary mt-1">12345678901</p>
+            <p className="text-xs text-muted-foreground mt-1">Branch: 632005 • Use your name as reference</p>
           </div>
         </div>
 

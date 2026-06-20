@@ -358,7 +358,7 @@ function Dashboard() {
                     { value: "info", label: "ℹ️ Info", color: "bg-blue-50 border-blue-200 text-blue-800" },
                     { value: "warning", label: "⚠️ Warning", color: "bg-amber-50 border-amber-200 text-amber-800" },
                     { value: "success", label: "✅ Good News", color: "bg-green-50 border-green-200 text-green-800" },
-                    { value: "promo", label: "🎉 Promo", color: "bg-pink-50 border-pink-200 text-pink-800" },
+                    { value: "promo", label: "🎉 Promo", color: "bg-violet-50 border-violet-200 text-violet-800" },
                   ].map(t => (
                     <button key={t.value} type="button"
                       onClick={() => setNewType(t.value)}
@@ -387,7 +387,7 @@ function Dashboard() {
                     info: "bg-blue-50 border-blue-200 text-blue-900",
                     warning: "bg-amber-50 border-amber-200 text-amber-900",
                     success: "bg-green-50 border-green-200 text-green-900",
-                    promo: "bg-pink-50 border-pink-200 text-pink-900",
+                    promo: "bg-violet-50 border-violet-200 text-violet-900",
                   };
                   const icons = { info: "ℹ️", warning: "⚠️", success: "✅", promo: "🎉" };
                   const isEditing = editingAnn?.id === a.id;

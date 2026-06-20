@@ -11,8 +11,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div>
             <h3 className="font-heading text-2xl font-bold text-background mb-4">
-              <span className="text-primary font-black">She Is</span>
-              <span className="block text-xs font-body font-light tracking-widest text-background/60 uppercase mt-1">The Best</span>
+              <span className="text-primary font-black">She Is The Best</span>
+              <span className="block text-xs font-body font-light tracking-widest text-background/60 uppercase mt-1">White With Shades Of Violet</span>
             </h3>
             <p className="text-sm leading-relaxed opacity-70">
               Step into a top-notch salon experience where beauty meets skill. She Is The Best — come see for yourself.

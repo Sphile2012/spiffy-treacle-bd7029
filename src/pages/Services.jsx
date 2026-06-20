@@ -124,7 +124,7 @@ export default function Services() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           className="mt-16 rounded-3xl overflow-hidden"
-          style={{ background: "linear-gradient(135deg, #fdf6f7, #fef9f0)" }}
+          style={{ background: "linear-gradient(135deg, #f5f3ff, #ede9fe)" }}
         >
           <div className="p-8 sm:p-12 text-center border border-primary/10 rounded-3xl">
             <span className="text-4xl mb-4 block">💳</span>
@@ -143,7 +143,7 @@ export default function Services() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="mt-12 bg-rose-50 border border-rose-200 rounded-3xl p-8 sm:p-10"
+          className="mt-12 bg-violet-50 border border-violet-200 rounded-3xl p-8 sm:p-10"
         >
           <div className="text-center mb-6">
             <span className="text-3xl">⏰</span>

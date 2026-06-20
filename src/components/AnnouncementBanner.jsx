@@ -7,7 +7,7 @@ const TYPE_STYLES = {
   info:    { banner: "bg-blue-50 border-blue-200 text-blue-900",    icon: "ℹ️" },
   warning: { banner: "bg-amber-50 border-amber-200 text-amber-900", icon: "⚠️" },
   success: { banner: "bg-green-50 border-green-200 text-green-900", icon: "✅" },
-  promo:   { banner: "bg-pink-50 border-pink-200 text-pink-900",    icon: "🎉" },
+  promo:   { banner: "bg-violet-50 border-violet-200 text-violet-900",    icon: "🎉" },
 };
 
 export default function AnnouncementBanner() {

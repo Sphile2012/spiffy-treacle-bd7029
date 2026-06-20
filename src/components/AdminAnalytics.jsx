@@ -5,7 +5,7 @@ import {
 } from "recharts";
 import { format, subMonths, startOfMonth, endOfMonth, isWithinInterval, parseISO } from "date-fns";
 
-const COLORS = ["#8b4a52", "#c4818a", "#e8b4b8", "#f3d5cc", "#d4956a", "#a06040"];
+const COLORS = ["#6f40bf", "#b090d0", "#c4b5fd", "#ddd6fe", "#8b5cf6", "#6d28d9"];
 
 function Card({ title, children }) {
   return (
@@ -119,11 +119,11 @@ export default function AdminAnalytics({ bookings }) {
       <Card title="📈 Revenue Trend (Last 3 Months)">
         <ResponsiveContainer width="100%" height={200}>
           <LineChart data={revenueData}>
-            <CartesianGrid strokeDasharray="3 3" stroke="#f0ddd9" />
+            <CartesianGrid strokeDasharray="3 3" stroke="#ede9fe" />
             <XAxis dataKey="month" tick={{ fontSize: 12 }} />
             <YAxis tick={{ fontSize: 12 }} tickFormatter={(v) => `R${v}`} />
             <Tooltip formatter={(v) => [`R${v}`, "Revenue"]} />
-            <Line type="monotone" dataKey="revenue" stroke="#8b4a52" strokeWidth={2.5} dot={{ r: 5, fill: "#8b4a52" }} />
+            <Line type="monotone" dataKey="revenue" stroke="#6f40bf" strokeWidth={2.5} dot={{ r: 5, fill: "#6f40bf" }} />
           </LineChart>
         </ResponsiveContainer>
       </Card>
@@ -163,11 +163,11 @@ export default function AdminAnalytics({ bookings }) {
           ) : (
             <ResponsiveContainer width="100%" height={220}>
               <BarChart data={peakData}>
-                <CartesianGrid strokeDasharray="3 3" stroke="#f0ddd9" />
+                <CartesianGrid strokeDasharray="3 3" stroke="#ede9fe" />
                 <XAxis dataKey="time" tick={{ fontSize: 10 }} />
                 <YAxis tick={{ fontSize: 12 }} allowDecimals={false} />
                 <Tooltip formatter={(v) => [v, "Bookings"]} />
-                <Bar dataKey="count" fill="#8b4a52" radius={[6, 6, 0, 0]} />
+                <Bar dataKey="count" fill="#b090d0" radius={[6, 6, 0, 0]} />
               </BarChart>
             </ResponsiveContainer>
           )}
@@ -178,11 +178,11 @@ export default function AdminAnalytics({ bookings }) {
       <Card title="📅 Bookings Per Month">
         <ResponsiveContainer width="100%" height={180}>
           <BarChart data={revenueData}>
-            <CartesianGrid strokeDasharray="3 3" stroke="#f0ddd9" />
+            <CartesianGrid strokeDasharray="3 3" stroke="#ede9fe" />
             <XAxis dataKey="month" tick={{ fontSize: 12 }} />
             <YAxis tick={{ fontSize: 12 }} allowDecimals={false} />
             <Tooltip formatter={(v) => [v, "Bookings"]} />
-            <Bar dataKey="bookings" fill="#c4818a" radius={[6, 6, 0, 0]} />
+            <Bar dataKey="bookings" fill="#b090d0" radius={[6, 6, 0, 0]} />
           </BarChart>
         </ResponsiveContainer>
       </Card>

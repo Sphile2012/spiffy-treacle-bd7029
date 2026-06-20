@@ -36,7 +36,7 @@ export default function BookingConfirmed() {
     : `Hi She Is The Best,\n\nI have just completed my booking online.\n\nName: ${booking.client_name}\nPhone: ${booking.client_phone}\nEmail: ${booking.client_email || "Not provided"}\nService: ${booking.service_detail}\nDate: ${booking.preferred_date}\nTime: ${booking.preferred_time}\n\nI have attached my R100 deposit proof of payment.\n\nSee you soon!\n${booking.client_name}`;
 
   const whatsappUrl = `https://wa.me/27823562239?text=${encodeURIComponent(whatsappMsg)}`;
-  const emailUrl = `mailto:bloomskillsandbeauty@icloud.com?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
+  const emailUrl = `mailto:sheisthebestcolourtobewhiteandshadesofturqua@icloud.com?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
 
   const sendBoth = () => {
     window.open(whatsappUrl, "_blank");

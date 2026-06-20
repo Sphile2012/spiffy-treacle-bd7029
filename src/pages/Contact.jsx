@@ -21,8 +21,8 @@ const contactItems = [
   {
     icon: Mail,
     title: "Email",
-    detail: "bloomskillsandbeauty@icloud.com",
-    action: "mailto:bloomskillsandbeauty@icloud.com",
+    detail: "sheisthebestcolourtobewhiteandshadesofturqua@icloud.com",
+    action: "mailto:sheisthebestcolourtobewhiteandshadesofturqua@icloud.com",
     actionLabel: "Send Email",
   },
   {

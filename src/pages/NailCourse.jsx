@@ -37,7 +37,7 @@ export default function NailCourse() {
           💅 Beginner Nail Course 🎓
         </h1>
         <p className="font-heading italic text-primary text-lg mb-4">She Is The Best</p>
-        <p className="muted-foreground max-w-lg mx-auto text-sm">
+        <p className="text-muted-foreground max-w-lg mx-auto text-sm">
           Learn essential nail techniques from scratch and grow your beauty career. From zero to professional in just 2 weeks!
         </p>
       </div>

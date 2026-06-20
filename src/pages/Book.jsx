@@ -255,7 +255,7 @@ export default function Book() {
                 <div className="space-y-6">
                   <div>
                     <h2 className="font-heading text-xl font-bold text-foreground mb-1 flex items-center gap-2">
-                      <Clock className="w-5 h-5 text-primary" /> Pick a Date &amp; Time
+                      <Clock className="w-5 h-5 text-primary" /> Pick a Date & Time
                     </h2>
                     <p className="text-sm text-muted-foreground">Choose your preferred appointment slot.</p>
                   </div>
@@ -299,7 +299,7 @@ export default function Book() {
                 <div className="space-y-6">
                   <div>
                     <h2 className="font-heading text-xl font-bold text-foreground mb-1 flex items-center gap-2">
-                      <ClipboardCheck className="w-5 h-5 text-primary" /> Review &amp; Confirm
+                      <ClipboardCheck className="w-5 h-5 text-primary" /> Review & Confirm
                     </h2>
                     <p className="text-sm text-muted-foreground">Please confirm your details below.</p>
                   </div>
@@ -403,4 +403,3 @@ export default function Book() {
     </div>
   );
 }
-

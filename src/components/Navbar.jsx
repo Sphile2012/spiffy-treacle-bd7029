@@ -130,7 +130,6 @@ export default function Navbar() {
               aria-expanded={open}
             >
               <span className="sr-only">{open ? "Close menu" : "Open menu"}</span>
-              {/* Animated burger icon */}
               <div className="w-5 h-4 flex flex-col justify-between">
                 <motion.span
                   animate={open ? { rotate: 45, y: 7 } : { rotate: 0, y: 0 }}

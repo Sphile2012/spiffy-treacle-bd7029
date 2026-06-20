@@ -191,8 +191,8 @@ function Dashboard() {
         const rawPhone = booking.client_phone?.replace(/\D/g, '') || '';
         const phone = rawPhone.startsWith('27') ? rawPhone : rawPhone.startsWith('0') ? '27' + rawPhone.slice(1) : '27' + rawPhone;
         const msg = newStatus === "confirmed"
-          ? `Hi ${booking.client_name}! 🌸 Your booking for *${booking.service_detail}* on *${booking.preferred_date}* at *${booking.preferred_time}* has been *confirmed*. We can't wait to see you! 💅\n\n📍 Sangro House, Durban\n📞 082 356 2239\n\n⏰ *Please arrive at least 15 minutes early.*\n\n⚠️ *Late Arrival Policy:* If you arrive 15 minutes or more late, your booking will be automatically cancelled. Please WhatsApp us if you are running behind.\n\n❌ *Cancellation Policy:* Please notify us at least 24 hours in advance if you need to cancel or reschedule.\n\n— Bloom Skills & Beauty`
-          : `Hi ${booking.client_name}, we're sorry but your booking for *${booking.service_detail}* on *${booking.preferred_date}* has been *cancelled*. Please WhatsApp us to rebook. 💬\n\n— Bloom Skills & Beauty`;
+          ? `Hi ${booking.client_name}! 🌸 Your booking for *${booking.service_detail}* on *${booking.preferred_date}* at *${booking.preferred_time}* has been *confirmed*. We can't wait to see you! 💅\n\n📍 Sangro House, Durban\n📞 082 356 2239\n\n⏰ *Please arrive at least 15 minutes early.*\n\n⚠️ *Late Arrival Policy:* If you arrive 15 minutes or more late, your booking will be automatically cancelled. Please WhatsApp us if you are running behind.\n\n❌ *Cancellation Policy:* Please notify us at least 24 hours in advance if you need to cancel or reschedule.\n\n— She Is The Best`
+          : `Hi ${booking.client_name}, we're sorry but your booking for *${booking.service_detail}* on *${booking.preferred_date}* has been *cancelled*. Please WhatsApp us to rebook. 💬\n\n— She Is The Best`;
         window.open(`https://wa.me/${phone}?text=${encodeURIComponent(msg)}`, '_blank');
       }
       showToast(`Booking ${newStatus} ✓`);

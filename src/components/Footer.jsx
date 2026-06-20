@@ -15,7 +15,7 @@ export default function Footer() {
               <span className="block text-xs font-body font-light tracking-widest text-background/60 uppercase mt-1">The Best</span>
             </h3>
             <p className="text-sm leading-relaxed opacity-70">
-              Step into a top-notch salon experience where beauty meets skill. Bloom into your beauty potential with us.
+              Step into a top-notch salon experience where beauty meets skill. She Is The Best — come see for yourself.
             </p>
           </div>
 
@@ -74,7 +74,7 @@ export default function Footer() {
 
       {/* Floating WhatsApp Button */}
       <a
-        href="https://wa.me/27823562239?text=Hi%20Bloom%20Skills%20%26%20Beauty!%20I'd%20like%20to%20make%20an%20enquiry."
+        href="https://wa.me/27823562239?text=Hi%20She%20Is%20The%20Best!%20I'd%20like%20to%20make%20an%20enquiry."
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white rounded-full p-4 shadow-2xl transition-all hover:scale-110"

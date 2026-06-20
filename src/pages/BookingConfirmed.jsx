@@ -44,17 +44,17 @@ export default function BookingConfirmed() {
   };
 
   return (
-    <div className="py-16 px-4 sm:px-6 min-h-[80vh] flex items-center justify-center bg-gradient-to-b from-pink-50/40 to-background">
+    <div className="py-16 px-4 sm:px-6 min-h-[80vh] flex items-center justify-center bg-gradient-to-b from-teal-50/40 to-background">
       <motion.div
         initial={{ opacity: 0, y: 24 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
         className="max-w-lg w-full"
       >
-        <div className="bg-white rounded-3xl shadow-xl border border-pink-100 overflow-hidden">
+        <div className="bg-white rounded-3xl shadow-xl border border-teal-100 overflow-hidden">
 
           {/* Header */}
-          <div className="bg-gradient-to-r from-[#c06070] to-[#e8a0a8] px-8 py-10 text-center">
+          <div className="bg-gradient-to-r from-primary to-teal-400 px-8 py-10 text-center">
             <motion.div
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
@@ -82,8 +82,8 @@ export default function BookingConfirmed() {
             </div>
 
             {/* Summary */}
-            <div className="bg-pink-50/60 border border-pink-100 rounded-2xl p-5 space-y-3 text-sm">
-              <p className="text-xs font-semibold uppercase tracking-wider text-[#c06070] flex items-center gap-1.5">
+            <div className="bg-teal-50/60 border border-teal-100 rounded-2xl p-5 space-y-3 text-sm">
+              <p className="text-xs font-semibold uppercase tracking-wider text-primary flex items-center gap-1.5">
                 <Sparkles className="w-3.5 h-3.5" /> {isCourse ? "Enrolment Summary" : "Booking Summary"}
               </p>
               <div className="space-y-2 text-foreground">
@@ -106,9 +106,9 @@ export default function BookingConfirmed() {
                   </div>
                 )}
                 {booking.price > 0 && (
-                  <div className="flex justify-between pt-2 border-t border-pink-200">
+                  <div className="flex justify-between pt-2 border-t border-teal-200">
                     <span className="text-muted-foreground">Total</span>
-                    <span className="font-bold text-[#c06070] text-base">R{booking.price}</span>
+                    <span className="font-bold text-primary text-base">R{booking.price}</span>
                   </div>
                 )}
               </div>
@@ -182,7 +182,7 @@ export default function BookingConfirmed() {
 
         <p className="text-center text-xs text-muted-foreground mt-5">
           Questions? WhatsApp us at{" "}
-          <a href="https://wa.me/27823562239" className="text-[#c06070] font-medium">
+          <a href="https://wa.me/27823562239" className="text-primary font-medium">
             082 356 2239
           </a>
         </p>

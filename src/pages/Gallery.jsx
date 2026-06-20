@@ -20,8 +20,8 @@ export default function Gallery() {
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="text-center mb-16">
           <p className="text-primary text-sm font-medium uppercase tracking-widest mb-3">Our Work</p>
           <h1 className="font-heading text-4xl sm:text-5xl font-bold text-foreground mb-2">
-            <span className="text-primary font-black">Bloom</span>
-            <span className="block text-2xl font-light text-muted-foreground mt-1">Skills &amp; Beauty Gallery</span>
+            <span className="text-primary font-black">She Is</span>
+            <span className="block text-2xl font-light text-muted-foreground mt-1">The Best · Gallery</span>
           </h1>
           <p className="text-muted-foreground max-w-md mx-auto text-sm">
             A glimpse into the beauty we create at She Is The Best.
@@ -54,7 +54,7 @@ export default function Gallery() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           className="text-center mt-16 p-10 rounded-3xl"
-          style={{ background: "linear-gradient(135deg, #fdf6f7, #fef9f0)", border: "1px solid rgba(192,96,112,0.12)" }}
+          style={{ background: "linear-gradient(135deg, #f0fdfa, #e0f7f5)", border: "1px solid rgba(20,184,166,0.15)" }}
         >
           <span className="text-4xl block mb-4">💅🪭🌸</span>
           <h3 className="font-heading text-2xl font-bold text-foreground mb-3 italic">

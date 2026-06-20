@@ -1,6 +1,6 @@
-# Bloom Skills & Beauty
+# She Is The Best
 
-A booking and course enrolment website for Bloom Skills & Beauty salon, Durban.
+A booking and course enrolment website for She Is The Best salon, Durban.
 
 ## Getting Started
 

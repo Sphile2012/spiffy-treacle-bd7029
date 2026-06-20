@@ -87,7 +87,7 @@ export default function Contact() {
             The fastest way to reach us. Send a message and we'll respond right away!
           </p>
           <a
-            href="https://wa.me/27823562239?text=Hi%20Bloom%20Skills%20%26%20Beauty!%20I'd%20like%20to%20make%20an%20enquiry."
+            href="https://wa.me/27823562239?text=Hi%20She%20Is%20The%20Best!%20I'd%20like%20to%20make%20an%20enquiry."
             target="_blank"
             rel="noopener noreferrer"
           >

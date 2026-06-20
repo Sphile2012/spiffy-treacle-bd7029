@@ -7,7 +7,7 @@ const reviews = [
   { name: "Naledi M.", rating: 5, text: "Absolutely obsessed with my nails! The attention to detail is unmatched. My set lasted over 3 weeks perfectly." },
   { name: "Thandi K.", rating: 5, text: "Best lashes I've ever had. So natural-looking yet stunning. I get compliments everywhere I go!" },
   { name: "Siphokazi D.", rating: 5, text: "Did the nail course and it was life-changing. The mentorship and training kit were so worth it. Highly recommend!" },
-  { name: "Ayanda B.", rating: 5, text: "The vibe at Bloom is just so warm and welcoming. Always leave feeling like a queen. Won't go anywhere else!" },
+  { name: "Ayanda B.", rating: 5, text: "The vibe at She Is The Best is just so warm and welcoming. Always leave feeling like a queen. Won't go anywhere else!" },
 ];
 
 export default function TestimonialsSection() {
@@ -32,7 +32,7 @@ export default function TestimonialsSection() {
           viewport={{ once: true, margin: "-50px" }}
           className="bg-primary rounded-3xl p-10 sm:p-14 text-center text-primary-foreground"
         >
-          <h3 className="font-heading text-2xl sm:text-3xl font-bold mb-4">Ready to Bloom?</h3>
+          <h3 className="font-heading text-2xl sm:text-3xl font-bold mb-4">Ready to look your best?</h3>
           <p className="opacity-90 mb-2 max-w-md mx-auto">
             Book your appointment today or enrol in our beginner nail course and start your beauty journey.
           </p>
@@ -45,7 +45,7 @@ export default function TestimonialsSection() {
                 Book Now
               </Button>
             </Link>
-            <a href="https://wa.me/27798060310?text=Hi%20Bloom!%20I'd%20like%20to%20enquire." target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/27823562239?text=Hi%20She%20Is%20The%20Best!%20I'd%20like%20to%20enquire." target="_blank" rel="noopener noreferrer">
               <Button size="lg" className="rounded-full px-8 bg-white text-black hover:bg-white/90 font-semibold">
                 WhatsApp Us
               </Button>

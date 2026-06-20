@@ -143,7 +143,7 @@ export default function Book() {
           <h1 className="font-heading text-3xl sm:text-4xl font-bold text-foreground">
             {isCourseBooking ? "Enrol in the Nail Course" : "Book an Appointment"}
           </h1>
-          <p className="text-muted-foreground text-sm mt-2">At <span className="italic font-semibold text-foreground">Bloom</span> Skills &amp; Beauty · Sangro House, Durban</p>
+          <p className="text-muted-foreground text-sm mt-2">At <span className="italic font-semibold text-foreground">She Is The Best</span> · Sangro House, Durban</p>
           <div className="mt-3 inline-flex items-center gap-2 bg-primary/10 text-primary text-xs font-semibold px-4 py-2 rounded-full">
             {isCourseBooking ? '💳 R500 non-refundable registration deposit to enrol' : '💳 R100 non-refundable deposit required to secure your slot'}
           </div>

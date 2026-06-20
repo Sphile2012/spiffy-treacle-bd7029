@@ -11,11 +11,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div>
             <h3 className="font-heading text-2xl font-bold text-background mb-4">
-              <span className="text-primary font-black">Bloom</span>
-              <span className="block text-xs font-body font-light tracking-widest text-background/60 uppercase mt-1">Skills &amp; Beauty</span>
+              <span className="text-primary font-black">She Is The Best</span>
+              <span className="block text-xs font-body font-light tracking-widest text-background/60 uppercase mt-1">Colour To Be White & Shades Of Turqua</span>
             </h3>
             <p className="text-sm leading-relaxed opacity-70">
-              Step into a top-notch salon experience where beauty meets skill. Bloom into your beauty potential with us.
+              Step into a top-notch salon experience where beauty meets skill.
             </p>
           </div>
 
@@ -52,9 +52,9 @@ export default function Footer() {
                 <Phone className="w-4 h-4 shrink-0" />
                 082 356 2239
               </a>
-              <a href="mailto:bloomskillsandbeauty@icloud.com" className="flex items-center gap-3 opacity-70 hover:opacity-100 transition-opacity">
+              <a href="mailto:sheisthebestcolourtobewhiteandshadesofturqua@icloud.com" className="flex items-center gap-3 opacity-70 hover:opacity-100 transition-opacity">
                 <Mail className="w-4 h-4 shrink-0" />
-                bloomskillsandbeauty@icloud.com
+                sheisthebestcolourtobewhiteandshadesofturqua@icloud.com
               </a>
               <div className="flex items-center gap-3 opacity-70">
                 <Clock className="w-4 h-4 shrink-0" />
@@ -66,7 +66,7 @@ export default function Footer() {
 
         <div className="border-t border-background/10 mt-12 pt-8 text-center text-xs opacity-50 space-y-1">
           <p className="flex items-center justify-center gap-1">
-            Made with <Heart className="w-3 h-3 text-primary fill-primary" /> Bloom Skills & Beauty © {new Date().getFullYear()}
+            Made with <Heart className="w-3 h-3 text-primary fill-primary" /> She Is The Best © {new Date().getFullYear()}
           </p>
           <p>Developed by uPhumeh</p>
         </div>
@@ -74,7 +74,7 @@ export default function Footer() {
 
       {/* Floating WhatsApp Button */}
       <a
-        href="https://wa.me/27823562239?text=Hi%20Bloom%20Skills%20%26%20Beauty!%20I'd%20like%20to%20make%20an%20enquiry."
+        href="https://wa.me/27823562239?text=Hi%20She%20Is%20The%20Best!%20I'd%20like%20to%20make%20an%20enquiry."
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white rounded-full p-4 shadow-2xl transition-all hover:scale-110"

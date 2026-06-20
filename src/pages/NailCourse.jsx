@@ -36,9 +36,9 @@ export default function NailCourse() {
         <h1 className="font-heading text-4xl sm:text-5xl font-bold text-foreground mb-2">
           💅 Beginner Nail Course 🎓
         </h1>
-        <p className="font-heading italic text-primary text-lg mb-4">Bloom Skills & Beauty</p>
+        <p className="font-heading italic text-primary text-lg mb-4">She Is The Best</p>
         <p className="text-muted-foreground max-w-lg mx-auto text-sm">
-          Learn essential nail techniques from scratch and bloom into your beauty career. From zero to professional in just 2 weeks!
+          Learn essential nail techniques from scratch and blossom into your beauty career. From zero to professional in just 2 weeks!
         </p>
       </div>
 

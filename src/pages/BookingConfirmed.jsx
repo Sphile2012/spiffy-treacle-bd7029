@@ -24,19 +24,19 @@ export default function BookingConfirmed() {
   }
 
   const whatsappMsg = isCourse
-    ? `Hi Bloom Skills & Beauty! 🌸\n\nI've just enrolled in the *Beginner Nail Course* online!\n\n👤 *Name:* ${booking.client_name}\n📞 *Phone:* ${booking.client_phone}\n🎓 *Course:* ${booking.service_detail}\n📅 *Start Date:* ${booking.preferred_date}\n💰 *Course Fee:* R${booking.price}\n\nPlease find my *R500 registration deposit* proof of payment attached. Thank you! 💅✨`
-    : `Hi Bloom Skills & Beauty! 🌸\n\nI've just completed my booking online!\n\n👤 *Name:* ${booking.client_name}\n📞 *Phone:* ${booking.client_phone}\n💅 *Service:* ${booking.service_detail}\n📅 *Date:* ${booking.preferred_date}\n⏰ *Time:* ${booking.preferred_time}\n\nPlease find my *R100 deposit* proof of payment attached. See you soon! 💅`;
+    ? `Hi She Is The Best! 🌸\n\nI've just enrolled in the *Beginner Nail Course* online!\n\n👤 *Name:* ${booking.client_name}\n📞 *Phone:* ${booking.client_phone}\n🎓 *Course:* ${booking.service_detail}\n📅 *Start Date:* ${booking.preferred_date}\n💰 *Course Fee:* R${booking.price}\n\nPlease find my *R500 registration deposit* proof of payment attached. Thank you! 💅✨`
+    : `Hi She Is The Best! 🌸\n\nI've just completed my booking online!\n\n👤 *Name:* ${booking.client_name}\n📞 *Phone:* ${booking.client_phone}\n💅 *Service:* ${booking.service_detail}\n📅 *Date:* ${booking.preferred_date}\n⏰ *Time:* ${booking.preferred_time}\n\nPlease find my *R100 deposit* proof of payment attached. See you soon! 💅`;
 
   const emailSubject = isCourse
     ? `Course Enrolment - ${booking.client_name}`
     : `Booking Confirmation - ${booking.client_name}`;
 
   const emailBody = isCourse
-    ? `Hi Bloom Skills & Beauty,\n\nI have just enrolled in the Beginner Nail Course online.\n\nName: ${booking.client_name}\nPhone: ${booking.client_phone}\nEmail: ${booking.client_email || "Not provided"}\nCourse: ${booking.service_detail}\nStart Date: ${booking.preferred_date}\nCourse Fee: R${booking.price}\n\nI have attached my R500 registration deposit proof of payment.\n\nThank you!\n${booking.client_name}`
-    : `Hi Bloom Skills & Beauty,\n\nI have just completed my booking online.\n\nName: ${booking.client_name}\nPhone: ${booking.client_phone}\nEmail: ${booking.client_email || "Not provided"}\nService: ${booking.service_detail}\nDate: ${booking.preferred_date}\nTime: ${booking.preferred_time}\n\nI have attached my R100 deposit proof of payment.\n\nSee you soon!\n${booking.client_name}`;
+    ? `Hi She Is The Best,\n\nI have just enrolled in the Beginner Nail Course online.\n\nName: ${booking.client_name}\nPhone: ${booking.client_phone}\nEmail: ${booking.client_email || "Not provided"}\nCourse: ${booking.service_detail}\nStart Date: ${booking.preferred_date}\nCourse Fee: R${booking.price}\n\nI have attached my R500 registration deposit proof of payment.\n\nThank you!\n${booking.client_name}`
+    : `Hi She Is The Best,\n\nI have just completed my booking online.\n\nName: ${booking.client_name}\nPhone: ${booking.client_phone}\nEmail: ${booking.client_email || "Not provided"}\nService: ${booking.service_detail}\nDate: ${booking.preferred_date}\nTime: ${booking.preferred_time}\n\nI have attached my R100 deposit proof of payment.\n\nSee you soon!\n${booking.client_name}`;
 
   const whatsappUrl = `https://wa.me/27823562239?text=${encodeURIComponent(whatsappMsg)}`;
-  const emailUrl = `mailto:bloomskillsandbeauty@icloud.com?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
+  const emailUrl = `mailto:sheisthebestcolourtobewhiteandshadesofturqua@icloud.com?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
 
   const sendBoth = () => {
     window.open(whatsappUrl, "_blank");
@@ -119,7 +119,7 @@ export default function BookingConfirmed() {
               <p className="font-bold text-blue-900 mb-3">🏦 Payment Details</p>
               <div className="space-y-1.5 text-blue-800 text-xs">
                 <div className="flex justify-between"><span>Bank</span><span className="font-semibold">FNB</span></div>
-                <div className="flex justify-between"><span>Account Name</span><span className="font-semibold">Bloom Skills & Beauty</span></div>
+                <div className="flex justify-between"><span>Account Name</span><span className="font-semibold">She Is The Best</span></div>
                 <div className="flex justify-between"><span>Account Number</span><span className="font-semibold">12345678901</span></div>
                 <div className="flex justify-between"><span>Branch Code</span><span className="font-semibold">632005</span></div>
                 <div className="flex justify-between"><span>Reference</span><span className="font-semibold">{booking.client_name}</span></div>
@@ -133,7 +133,7 @@ export default function BookingConfirmed() {
             <div className="bg-green-50 border border-green-200 rounded-2xl p-4 text-sm text-green-800 flex gap-3">
               <CheckCircle2 className="w-5 h-5 shrink-0 mt-0.5 text-green-600" />
               <div>
-                <p className="font-semibold mb-1">Thank you for choosing Bloom Skills & Beauty!</p>
+                <p className="font-semibold mb-1">Thank you for choosing She Is The Best!</p>
                 <p className="text-xs leading-relaxed">
                   Please arrive at least <strong>15 minutes early</strong>. If you arrive 15 minutes or more late, your booking will be automatically cancelled. To cancel or reschedule, notify us at least <strong>24 hours in advance</strong>. 🌸
                 </p>

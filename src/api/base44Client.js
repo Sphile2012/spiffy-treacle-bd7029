@@ -1,7 +1,7 @@
 // API client — uses localStorage for data storage (no backend required)
 // To connect a real backend, replace the localStorage calls with fetch() calls to your API.
 
-const DB_KEY = 'bloom_bookings';
+const DB_KEY = 'she_is_the_best_bookings';
 
 function getAll() {
   try { return JSON.parse(localStorage.getItem(DB_KEY) || '[]'); } catch { return []; }
@@ -45,7 +45,7 @@ const BookingEntity = {
   },
 };
 
-const ADMIN_SESSION_KEY = 'bloom_admin_session';
+const ADMIN_SESSION_KEY = 'she_is_the_best_admin_session';
 
 export const base44 = {
   entities: {

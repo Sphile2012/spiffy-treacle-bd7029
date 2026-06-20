@@ -53,9 +53,9 @@ export default function Footer() {
                 <Phone className="w-4 h-4 shrink-0" />
                 082 356 2239
               </a>
-              <a href="mailto:bloomskillsandbeauty@icloud.com" className="flex items-center gap-3 opacity-70 hover:opacity-100 transition-opacity">
+              <a href="mailto:poomeigh503@gmail.com" className="flex items-center gap-3 opacity-70 hover:opacity-100 transition-opacity">
                 <Mail className="w-4 h-4 shrink-0" />
-                bloomskillsandbeauty@icloud.com
+                poomeigh503@gmail.com
               </a>
               <div className="flex items-center gap-3 opacity-70">
                 <Clock className="w-4 h-4 shrink-0" />

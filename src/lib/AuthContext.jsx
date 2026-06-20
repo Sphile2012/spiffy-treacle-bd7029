@@ -28,7 +28,7 @@ export const AuthProvider = ({ children }) => {
 
   const login = (password) => {
     if (password === ADMIN_PASSWORD) {
-      const session = { role: 'admin', email: 'admin@bloomskillsandbeauty.com' };
+      const session = { role: 'admin', email: 'admin@sheisthebest.com' };
       localStorage.setItem(ADMIN_SESSION_KEY, JSON.stringify(session));
       setUser(session);
       setIsAuthenticated(true);

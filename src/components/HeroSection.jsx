@@ -16,7 +16,7 @@ export default function HeroSection({ heroImage }) {
       <div className="absolute inset-0">
         <img
           src={heroImage}
-          alt="Beautiful nail art by Bloom Skills & Beauty"
+          alt="Beautiful nail art by She Is The Best"
           fetchpriority="high"
           decoding="async"
           className="w-full h-full object-cover scale-105"
@@ -50,13 +50,13 @@ export default function HeroSection({ heroImage }) {
             className="font-heading leading-none mb-6"
           >
             <span className="block text-6xl sm:text-7xl lg:text-8xl font-black text-white tracking-tight drop-shadow-sm">
-              Bloom
+              She Is
             </span>
             <span
               className="block text-amber-300 font-light tracking-[0.4em] uppercase mt-3"
               style={{ fontSize: "clamp(10px, 1.2vw, 15px)" }}
             >
-              Skills &amp; Beauty
+              The Best
             </span>
             <span className="block text-white/80 font-heading italic font-light text-2xl sm:text-3xl mt-4">
               Where nails meet artistry.

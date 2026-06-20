@@ -11,8 +11,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div>
             <h3 className="font-heading text-2xl font-bold text-background mb-4">
-              <span className="text-primary font-black">Bloom</span>
-              <span className="block text-xs font-body font-light tracking-widest text-background/60 uppercase mt-1">Skills &amp; Beauty</span>
+              <span className="text-primary font-black">She Is</span>
+              <span className="block text-xs font-body font-light tracking-widest text-background/60 uppercase mt-1">The Best</span>
             </h3>
             <p className="text-sm leading-relaxed opacity-70">
               Step into a top-notch salon experience where beauty meets skill. Bloom into your beauty potential with us.
@@ -66,7 +66,7 @@ export default function Footer() {
 
         <div className="border-t border-background/10 mt-12 pt-8 text-center text-xs opacity-50 space-y-1">
           <p className="flex items-center justify-center gap-1">
-            Made with <Heart className="w-3 h-3 text-primary fill-primary" /> Bloom Skills & Beauty © {new Date().getFullYear()}
+            Made with <Heart className="w-3 h-3 text-primary fill-primary" /> She Is The Best © {new Date().getFullYear()}
           </p>
           <p>Developed by uPhumeh</p>
         </div>

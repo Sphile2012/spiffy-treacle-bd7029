@@ -24,7 +24,7 @@ export default function Gallery() {
             <span className="block text-2xl font-light text-muted-foreground mt-1">Skills &amp; Beauty Gallery</span>
           </h1>
           <p className="text-muted-foreground max-w-md mx-auto text-sm">
-            A glimpse into the beauty we create at Bloom Skills &amp; Beauty.
+            A glimpse into the beauty we create at She Is The Best.
           </p>
         </motion.div>
 

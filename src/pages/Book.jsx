@@ -360,7 +360,7 @@ export default function Book() {
                     <p className="font-semibold mb-1">💳 Deposit Required</p>
                     <p>Pay <strong>{isCourseBooking ? "R500" : "R100"}</strong> via FNB direct transfer, then click <strong>"I've Paid"</strong> below.</p>
                   </div>
-                  <a href={`https://wa.me/27823562239?text=${encodeURIComponent(`Hi Bloom Skills & Beauty! I've just made my ${isCourseBooking ? 'R500 registration' : 'R100'} deposit for ${form.client_name}.\nDate: ${isCourseBooking ? (dateRange.from ? format(dateRange.from, 'd MMM yyyy') : '') : (date ? format(date, 'd MMM yyyy') : '')}\n\nPlease find my proof of payment attached. Thank you!`)}`}
+                  <a href={`https://wa.me/27823562239?text=${encodeURIComponent(`Hi She Is The Best! I've just made my ${isCourseBooking ? 'R500 registration' : 'R100'} deposit for ${form.client_name}.\nDate: ${isCourseBooking ? (dateRange.from ? format(dateRange.from, 'd MMM yyyy') : '') : (date ? format(date, 'd MMM yyyy') : '')}\n\nPlease find my proof of payment attached. Thank you!`)}`}
                     target="_blank" rel="noopener noreferrer" className="block">
                     <button className="w-full py-3 rounded-xl bg-green-600 hover:bg-green-700 text-white font-medium text-sm transition-colors">
                       💬 Send Proof of Payment via WhatsApp

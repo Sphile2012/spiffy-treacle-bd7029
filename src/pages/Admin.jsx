@@ -38,7 +38,7 @@ function LoginScreen() {
     <div className="min-h-screen flex items-center justify-center px-4">
       <div className="text-center bg-card border border-border/50 rounded-3xl p-10 max-w-sm w-full shadow-xl">
         <p className="text-5xl mb-4">💅</p>
-        <h2 className="font-heading text-2xl font-bold text-foreground mb-2">Bloom Skills & Beauty Admin</h2>
+        <h2 className="font-heading text-2xl font-bold text-foreground mb-2">She Is The Best Admin</h2>
         <p className="text-muted-foreground text-sm mb-6">Enter your admin password to continue.</p>
         <form onSubmit={handleLogin} className="space-y-3">
           <Input
@@ -191,8 +191,8 @@ function Dashboard() {
         const rawPhone = booking.client_phone?.replace(/\D/g, '') || '';
         const phone = rawPhone.startsWith('27') ? rawPhone : rawPhone.startsWith('0') ? '27' + rawPhone.slice(1) : '27' + rawPhone;
         const msg = newStatus === "confirmed"
-          ? `Hi ${booking.client_name}! 🌸 Your booking for *${booking.service_detail}* on *${booking.preferred_date}* at *${booking.preferred_time}* has been *confirmed*. We can't wait to see you! 💅\n\n📍 Sangro House, Durban\n📞 082 356 2239\n\n⏰ *Please arrive at least 15 minutes early.*\n\n⚠️ *Late Arrival Policy:* If you arrive 15 minutes or more late, your booking will be automatically cancelled. Please WhatsApp us if you are running behind.\n\n❌ *Cancellation Policy:* Please notify us at least 24 hours in advance if you need to cancel or reschedule.\n\n— Bloom Skills & Beauty`
-          : `Hi ${booking.client_name}, we're sorry but your booking for *${booking.service_detail}* on *${booking.preferred_date}* has been *cancelled*. Please WhatsApp us to rebook. 💬\n\n— Bloom Skills & Beauty`;
+          ? `Hi ${booking.client_name}! 🌸 Your booking for *${booking.service_detail}* on *${booking.preferred_date}* at *${booking.preferred_time}* has been *confirmed*. We can't wait to see you! 💅\n\n📍 Sangro House, Durban\n📞 082 356 2239\n\n⏰ *Please arrive at least 15 minutes early.*\n\n⚠️ *Late Arrival Policy:* If you arrive 15 minutes or more late, your booking will be automatically cancelled. Please WhatsApp us if you are running behind.\n\n❌ *Cancellation Policy:* Please notify us at least 24 hours in advance if you need to cancel or reschedule.\n\n— She Is The Best`
+          : `Hi ${booking.client_name}, we're sorry but your booking for *${booking.service_detail}* on *${booking.preferred_date}* has been *cancelled*. Please WhatsApp us to rebook. 💬\n\n— She Is The Best`;
         window.open(`https://wa.me/${phone}?text=${encodeURIComponent(msg)}`, '_blank');
       }
       showToast(`Booking ${newStatus} ✓`);
@@ -290,7 +290,7 @@ function Dashboard() {
               )}
             </h1>
             <p className="text-sm text-muted-foreground mt-1 italic flex items-center gap-2">
-              Bloom Skills &amp; Beauty
+              She Is The Best
               <span className="inline-flex items-center gap-1 text-xs text-green-600 font-medium">
                 <span className="w-1.5 h-1.5 rounded-full bg-green-500 inline-block animate-pulse" />
                 Live
@@ -700,7 +700,7 @@ function Dashboard() {
                             </Button>
                           )}
                           <a
-                            href={`https://wa.me/${(() => { const r = b.client_phone?.replace(/\D/g,'') || ''; return r.startsWith('27') ? r : r.startsWith('0') ? '27'+r.slice(1) : '27'+r; })()}?text=${encodeURIComponent(`Hi ${b.client_name}! 🌸 Your booking for ${b.service_detail} on ${b.preferred_date} at ${b.preferred_time} is confirmed. See you at Bloom Skills & Beauty! 💅`)}`}
+                            href={`https://wa.me/${(() => { const r = b.client_phone?.replace(/\D/g,'') || ''; return r.startsWith('27') ? r : r.startsWith('0') ? '27'+r.slice(1) : '27'+r; })()}?text=${encodeURIComponent(`Hi ${b.client_name}! 🌸 Your booking for ${b.service_detail} on ${b.preferred_date} at ${b.preferred_time} is confirmed. See you at She Is The Best! �`)}`}
                             target="_blank"
                             rel="noopener noreferrer"
                           >

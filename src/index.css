@@ -86,7 +86,7 @@
 @layer base {
   html {
     scroll-behavior: smooth;
-    font-size: 20px;
+    font-size: 16px; /* desktop default */
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
   }
@@ -99,12 +99,11 @@
     @apply bg-background text-foreground;
     font-family: var(--font-body);
     font-size: 1rem;
-    line-height: 1.7;
+    line-height: 1.6;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
 
-  /* Enforce minimum 20px on all text elements */
   p, span, label, input, textarea, select, button, a, li, td, th {
     font-size: 1rem;
   }

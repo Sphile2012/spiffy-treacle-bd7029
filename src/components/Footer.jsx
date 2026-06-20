@@ -23,6 +23,7 @@ export default function Footer() {
             <h4 className="font-heading text-lg font-medium text-background mb-4">Quick Links</h4>
             <div className="space-y-3">
               {[
+                { label: "About Us", to: "/about" },
                 { label: "Services & Prices", to: "/services" },
                 { label: "Nail Course", to: "/nail-course" },
                 { label: "Book Appointment", to: "/book" },

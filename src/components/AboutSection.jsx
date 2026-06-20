@@ -25,7 +25,7 @@ export default function AboutSection() {
             <div className="rounded-3xl overflow-hidden shadow-2xl shadow-primary/10">
               <img
                 src="https://media.base44.com/images/public/69c85189646ba632d738f811/c8cd671aa_WhatsAppImage2026-03-29at1611561.jpg"
-                alt="Bloom Skills & Beauty — our work"
+                alt="She Is The Best — our work"
                 loading="lazy"
                 decoding="async"
                 className="w-full h-[480px] object-cover"
@@ -50,7 +50,7 @@ export default function AboutSection() {
               Where Beauty Meets Skill
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Bloom Skills & Beauty was born from a deep love for nail art and a passion for empowering women through beauty. Based at Sangro House in Durban, we offer a warm, professional salon experience that goes beyond just nails.
+              She Is The Best was born from a deep love for nail art and a passion for empowering women through beauty. Based at Sangro House in Durban, we offer a warm, professional salon experience that goes beyond just nails.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-8">
               Whether you're coming in for a fresh set or you're ready to start your own career through our beginner nail course — you're in the right place.

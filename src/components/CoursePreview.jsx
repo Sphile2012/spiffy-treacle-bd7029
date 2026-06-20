@@ -92,7 +92,7 @@ export default function CoursePreview({ courseImage }) {
             <div className="rounded-3xl overflow-hidden shadow-2xl shadow-primary/10">
               <img
                 src={courseImage}
-                alt="Bloom Skills & Beauty Nail Course"
+                alt="She Is The Best Nail Course"
                 loading="lazy"
                 decoding="async"
                 className="w-full h-auto object-cover"

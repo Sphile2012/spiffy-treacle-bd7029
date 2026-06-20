@@ -65,49 +65,9 @@ export default function Navbar() {
               </span>
             </Link>
 
-            {/* Desktop links */}
-            <div className="hidden md:flex items-center gap-6 lg:gap-8">
-              {links.map((link) => (
-                <Link
-                  key={link.to}
-                  to={link.to}
-                  className={`text-sm font-medium transition-colors pb-0.5 border-b-2 ${
-                    isActive(link.to)
-                      ? "text-primary border-primary"
-                      : "text-muted-foreground border-transparent hover:text-foreground hover:border-primary/40"
-                  }`}
-                >
-                  {link.label}
-                </Link>
-              ))}
-              {isAdmin && (
-                <Link to="/admin">
-                  <Button variant="outline" size="sm" className="rounded-full gap-1.5 border-primary/30 text-primary hover:bg-primary/5">
-                    <LayoutDashboard className="w-3.5 h-3.5" /> Admin
-                  </Button>
-                </Link>
-              )}
-              {isLoggedIn ? (
-                <Button variant="ghost" size="sm" className="rounded-full gap-1.5 text-muted-foreground" onClick={logout}>
-                  <LogOut className="w-3.5 h-3.5" /> Logout
-                </Button>
-              ) : (
-                <Link to="/admin">
-                  <Button variant="outline" size="sm" className="rounded-full gap-1.5 border-primary/30 text-primary hover:bg-primary/5">
-                    <LogIn className="w-3.5 h-3.5" /> Login
-                  </Button>
-                </Link>
-              )}
-              <Link to="/book">
-                <Button className="rounded-full px-6 bg-primary hover:bg-primary/90 text-white shadow-md shadow-primary/20">
-                  Book Now
-                </Button>
-              </Link>
-            </div>
-
-            {/* Hamburger — mobile only */}
+            {/* Hamburger — all screen sizes */}
             <button
-              className="md:hidden flex items-center justify-center w-10 h-10 rounded-xl text-foreground hover:bg-primary/10 transition-colors active:scale-95"
+              className="flex items-center justify-center w-10 h-10 rounded-xl text-foreground hover:bg-primary/10 transition-colors active:scale-95"
               onClick={() => setOpen(true)}
               aria-label="Open menu"
             >
@@ -117,23 +77,22 @@ export default function Navbar() {
         </div>
       </nav>
 
-      {/* ── Mobile drawer ── */}
-      {/* Backdrop */}
+      {/* ── Drawer backdrop ── */}
       <div
         onClick={() => setOpen(false)}
-        className={`fixed inset-0 z-[60] bg-black/40 backdrop-blur-sm md:hidden transition-opacity duration-300 ${
+        className={`fixed inset-0 z-[60] bg-black/40 backdrop-blur-sm transition-opacity duration-300 ${
           open ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
         }`}
         aria-hidden="true"
       />
 
-      {/* Drawer panel — slides in from the right */}
+      {/* ── Drawer panel — slides in from right ── */}
       <div
-        className={`fixed top-0 right-0 bottom-0 z-[70] w-72 bg-white shadow-2xl md:hidden flex flex-col transition-transform duration-300 ease-in-out ${
+        className={`fixed top-0 right-0 bottom-0 z-[70] w-72 bg-white shadow-2xl flex flex-col transition-transform duration-300 ease-in-out ${
           open ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        {/* Drawer header */}
+        {/* Header */}
         <div className="flex items-center justify-between px-5 py-4 border-b border-border/60">
           <span className="font-heading text-lg font-bold">
             <span className="text-primary font-black">She Is</span>
@@ -159,7 +118,7 @@ export default function Navbar() {
               className={`flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition-colors ${
                 isActive(link.to)
                   ? "bg-primary text-white"
-                  : "text-foreground hover:bg-primary/8 hover:text-primary"
+                  : "text-foreground hover:bg-primary/10 hover:text-primary"
               }`}
             >
               {link.label}

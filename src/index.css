@@ -86,7 +86,7 @@
 @layer base {
   html {
     scroll-behavior: smooth;
-    font-size: 16px;
+    font-size: 18px;
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
   }
@@ -99,13 +99,13 @@
     @apply bg-background text-foreground;
     font-family: var(--font-body);
     font-size: 1rem;
-    line-height: 1.6;
+    line-height: 1.7;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
 
-  /* Ensure minimum readable font size on all elements */
-  p, span, label, input, textarea, select, button, a, li {
+  /* Enforce minimum 18px on all text elements */
+  p, span, label, input, textarea, select, button, a, li, td, th {
     font-size: 1rem;
   }
 
@@ -114,6 +114,20 @@
   .font-heading {
     font-family: var(--font-heading);
   }
+}
+
+/* ── Override Tailwind small text classes on mobile ─────────────────────── */
+/* On screens < 768px, text-sm and text-xs are bumped to readable sizes      */
+@media (max-width: 767px) {
+  .text-xs  { font-size: 0.875rem !important; line-height: 1.5 !important; } /* 15.75px */
+  .text-sm  { font-size: 1rem    !important; line-height: 1.6 !important; } /* 18px    */
+  .text-base { font-size: 1.111rem !important; }                              /* 20px    */
+  .text-lg  { font-size: 1.222rem !important; }                              /* 22px    */
+  .text-xl  { font-size: 1.333rem !important; }                              /* 24px    */
+  .text-2xl { font-size: 1.556rem !important; }                              /* 28px    */
+  .text-3xl { font-size: 1.778rem !important; }                              /* 32px    */
+  .text-4xl { font-size: 2rem     !important; }                              /* 36px    */
+  .text-5xl { font-size: 2.444rem !important; }                              /* 44px    */
 }
 
 @layer utilities {

@@ -32,12 +32,12 @@ export default function NailCourse() {
     <div className="py-12 sm:py-20">
       {/* Header */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center mb-12">
-        <p className="text-primary text-sm font-medium uppercase tracking-widest mb-3">Start Your Journey</p>
+        <p className="text-primary text-base font-medium uppercase tracking-widest mb-3">Start Your Journey</p>
         <h1 className="font-heading text-4xl sm:text-5xl font-bold text-foreground mb-2">
           💅 Beginner Nail Course 🎓
         </h1>
         <p className="font-heading italic text-primary text-lg mb-4">She Is The Best</p>
-        <p className="text-muted-foreground max-w-lg mx-auto text-sm">
+        <p className="text-muted-foreground max-w-lg mx-auto text-base">
           Learn essential nail techniques from scratch and grow your beauty career. From zero to professional in just 2 weeks!
         </p>
       </div>
@@ -54,18 +54,18 @@ export default function NailCourse() {
           <div className="max-w-2xl mx-auto space-y-3 text-left mb-8">
             <div className="flex items-center gap-3">
               <span className="text-2xl">✂️</span>
-              <span className="text-sm text-foreground"><strong>Full Curriculum:</strong> Nail shaping, acrylic application, French techniques, 3D art, health & safety, and more</span>
+              <span className="text-base text-foreground"><strong>Full Curriculum:</strong> Nail shaping, acrylic application, French techniques, 3D art, health & safety, and more</span>
             </div>
             <div className="flex items-center gap-3">
               <span className="text-2xl">🎁</span>
-              <span className="text-sm text-foreground"><strong>Complete Package:</strong> Attendance certificate, 2-month mentorship, professional training kit, and hands-on experience</span>
+              <span className="text-base text-foreground"><strong>Complete Package:</strong> Attendance certificate, 2-month mentorship, professional training kit, and hands-on experience</span>
             </div>
             <div className="flex items-center gap-3">
               <span className="text-2xl">💰</span>
-              <span className="text-sm text-foreground"><strong>Investment:</strong> R3,500 total (R500 non-refundable registration)</span>
+              <span className="text-base text-foreground"><strong>Investment:</strong> R3,500 total (R500 non-refundable registration)</span>
             </div>
           </div>
-          <p className="text-sm text-muted-foreground mb-8">Limited spots available. Enroll today and start your beauty career journey! 🌸</p>
+          <p className="text-base text-muted-foreground mb-8">Limited spots available. Enroll today and start your beauty career journey! 🌸</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/book?service=course">
               <Button size="lg" className="rounded-full px-12 py-6 text-base font-bold shadow-lg bg-primary hover:bg-primary/90 text-primary-foreground">

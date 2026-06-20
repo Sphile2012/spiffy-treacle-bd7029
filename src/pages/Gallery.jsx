@@ -18,12 +18,12 @@ export default function Gallery() {
 
         {/* Header */}
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="text-center mb-16">
-          <p className="text-primary text-sm font-medium uppercase tracking-widest mb-3">Our Work</p>
+          <p className="text-primary text-base font-medium uppercase tracking-widest mb-3">Our Work</p>
           <h1 className="font-heading text-4xl sm:text-5xl font-bold text-foreground mb-2">
             <span className="text-primary font-black">She Is</span>
-            <span className="block text-2xl font-light text-muted-foreground mt-1">The Best · Gallery</span>
+            <span className="block text-2xl sm:text-3xl font-light text-muted-foreground mt-1">The Best · Gallery</span>
           </h1>
-          <p className="text-muted-foreground max-w-md mx-auto text-sm">
+          <p className="text-muted-foreground max-w-md mx-auto text-base">
             A glimpse into the beauty we create at She Is The Best.
           </p>
         </motion.div>
@@ -60,7 +60,7 @@ export default function Gallery() {
           <h3 className="font-heading text-2xl font-bold text-foreground mb-3 italic">
             Love what you see?
           </h3>
-          <p className="text-muted-foreground text-sm mb-6">Book your appointment and let us create something beautiful for you.</p>
+          <p className="text-muted-foreground text-base mb-6">Book your appointment and let us create something beautiful for you.</p>
           <Link to="/book">
             <Button size="lg" className="rounded-full px-12 py-6 text-base bg-primary hover:bg-primary/90 text-primary-foreground shadow-lg shadow-primary/20">
               Book Your Service ✨

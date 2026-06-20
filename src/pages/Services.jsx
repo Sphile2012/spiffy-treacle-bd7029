@@ -91,7 +91,7 @@ export default function Services() {
           <h1 className="font-heading text-4xl sm:text-5xl font-bold text-foreground mb-2">
             Services & Prices
           </h1>
-          <p className="font-heading italic text-primary text-lg mb-4">Bloom Skills & Beauty</p>
+          <p className="font-heading italic text-primary text-lg mb-4">She Is The Best</p>
           <p className="text-muted-foreground max-w-md mx-auto text-sm">
             Professional nail art at Sangro House, Durban. Quality you can trust 💅
           </p>

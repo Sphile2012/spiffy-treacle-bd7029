@@ -31,8 +31,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16 sm:h-20">
           <Link to="/" className="flex items-center gap-2">
             <span className="font-heading text-xl sm:text-2xl font-bold text-foreground tracking-tight">
-              <span className="text-primary font-black">Bloom</span>
-              <span className="text-muted-foreground font-light text-sm ml-1 hidden sm:inline tracking-widest uppercase" style={{fontSize:'10px', letterSpacing:'0.2em'}}> Skills &amp; Beauty</span>
+              <span className="text-primary font-black">She Is The Best</span>
             </span>
           </Link>
 

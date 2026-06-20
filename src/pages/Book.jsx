@@ -143,7 +143,7 @@ export default function Book() {
           <h1 className="font-heading text-3xl sm:text-4xl font-bold text-foreground">
             {isCourseBooking ? "Enrol in the Nail Course" : "Book an Appointment"}
           </h1>
-          <p className="text-muted-foreground text-sm mt-2">At <span className="italic font-semibold text-foreground">Bloom</span> Skills &amp; Beauty · Sangro House, Durban</p>
+          <p className="text-muted-foreground text-sm mt-2">At <span className="italic font-semibold text-foreground">She Is The Best</span> · Sangro House, Durban</p>
           <div className="mt-3 inline-flex items-center gap-2 bg-primary/10 text-primary text-xs font-semibold px-4 py-2 rounded-full">
             {isCourseBooking ? '💳 R500 non-refundable registration deposit to enrol' : '💳 R100 non-refundable deposit required to secure your slot'}
           </div>
@@ -255,7 +255,7 @@ export default function Book() {
                 <div className="space-y-6">
                   <div>
                     <h2 className="font-heading text-xl font-bold text-foreground mb-1 flex items-center gap-2">
-                      <Clock className="w-5 h-5 text-primary" /> Pick a Date &amp; Time
+                      <Clock className="w-5 h-5 text-primary" /> Pick a Date & Time
                     </h2>
                     <p className="text-sm text-muted-foreground">Choose your preferred appointment slot.</p>
                   </div>
@@ -299,7 +299,7 @@ export default function Book() {
                 <div className="space-y-6">
                   <div>
                     <h2 className="font-heading text-xl font-bold text-foreground mb-1 flex items-center gap-2">
-                      <ClipboardCheck className="w-5 h-5 text-primary" /> Review &amp; Confirm
+                      <ClipboardCheck className="w-5 h-5 text-primary" /> Review & Confirm
                     </h2>
                     <p className="text-sm text-muted-foreground">Please confirm your details below.</p>
                   </div>
@@ -360,7 +360,7 @@ export default function Book() {
                     <p className="font-semibold mb-1">💳 Deposit Required</p>
                     <p>Pay <strong>{isCourseBooking ? "R500" : "R100"}</strong> via FNB direct transfer, then click <strong>"I've Paid"</strong> below.</p>
                   </div>
-                  <a href={`https://wa.me/27823562239?text=${encodeURIComponent(`Hi Bloom Skills & Beauty! I've just made my ${isCourseBooking ? 'R500 registration' : 'R100'} deposit for ${form.client_name}.\nDate: ${isCourseBooking ? (dateRange.from ? format(dateRange.from, 'd MMM yyyy') : '') : (date ? format(date, 'd MMM yyyy') : '')}\n\nPlease find my proof of payment attached. Thank you!`)}`}
+                  <a href={`https://wa.me/27823562239?text=${encodeURIComponent(`Hi She Is The Best! I've just made my ${isCourseBooking ? 'R500 registration' : 'R100'} deposit for ${form.client_name}.\nDate: ${isCourseBooking ? (dateRange.from ? format(dateRange.from, 'd MMM yyyy') : '') : (date ? format(date, 'd MMM yyyy') : '')}\n\nPlease find my proof of payment attached. Thank you!`)}`}
                     target="_blank" rel="noopener noreferrer" className="block">
                     <button className="w-full py-3 rounded-xl bg-green-600 hover:bg-green-700 text-white font-medium text-sm transition-colors">
                       💬 Send Proof of Payment via WhatsApp
@@ -403,4 +403,3 @@ export default function Book() {
     </div>
   );
 }
-

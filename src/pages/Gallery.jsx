@@ -20,11 +20,11 @@ export default function Gallery() {
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="text-center mb-16">
           <p className="text-primary text-sm font-medium uppercase tracking-widest mb-3">Our Work</p>
           <h1 className="font-heading text-4xl sm:text-5xl font-bold text-foreground mb-2">
-            <span className="text-primary font-black">Bloom</span>
-            <span className="block text-2xl font-light text-muted-foreground mt-1">Skills &amp; Beauty Gallery</span>
+            <span className="text-primary font-black">She Is The Best</span>
+            <span className="block text-2xl font-light text-muted-foreground mt-1">Gallery</span>
           </h1>
           <p className="text-muted-foreground max-w-md mx-auto text-sm">
-            A glimpse into the beauty we create at Bloom Skills &amp; Beauty.
+            A glimpse into the beauty we create at She Is The Best.
           </p>
         </motion.div>
 

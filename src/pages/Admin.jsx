@@ -38,7 +38,7 @@ function LoginScreen() {
     <div className="min-h-screen flex items-center justify-center px-4">
       <div className="text-center bg-card border border-border/50 rounded-3xl p-10 max-w-sm w-full shadow-xl">
         <p className="text-5xl mb-4">💅</p>
-        <h2 className="font-heading text-2xl font-bold text-foreground mb-2">Bloom Skills & Beauty Admin</h2>
+        <h2 className="font-heading text-2xl font-bold text-foreground mb-2">She Is The Best Admin</h2>
         <p className="text-muted-foreground text-sm mb-6">Enter your admin password to continue.</p>
         <form onSubmit={handleLogin} className="space-y-3">
           <Input

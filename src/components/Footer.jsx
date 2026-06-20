@@ -12,7 +12,7 @@ export default function Footer() {
           <div>
             <h3 className="font-heading text-2xl font-bold text-background mb-4">
               <span className="text-primary font-black">She Is The Best</span>
-              <span className="block text-xs font-body font-light tracking-widest text-background/60 uppercase mt-1">Colour To Be White & Shades Of Turqua</span>
+              <span className="block text-xs font-body font-light tracking-widest text-background/60 uppercase mt-1">Colour To White And Shades Of Turquoise</span>
             </h3>
             <p className="text-sm leading-relaxed opacity-70">
               Step into a top-notch salon experience where beauty meets skill.
